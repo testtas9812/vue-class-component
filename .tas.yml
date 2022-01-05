@@ -10,6 +10,7 @@ preRun:
      command:
         - yarn install
         - yarn run build
+        - yarn run test
 postRun:
      command:
         - yarn --version
